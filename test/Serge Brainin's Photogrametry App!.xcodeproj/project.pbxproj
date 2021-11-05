@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F13631D2735688400BCAA0E /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13631C2735688400BCAA0E /* testApp.swift */; };
+		9F13631F2735688400BCAA0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13631E2735688400BCAA0E /* ContentView.swift */; };
+		9F1363212735688500BCAA0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1363202735688500BCAA0E /* Assets.xcassets */; };
+		9F1363242735688500BCAA0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F1363232735688500BCAA0E /* Preview Assets.xcassets */; };
+		9F13632F2735688500BCAA0E /* testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13632E2735688500BCAA0E /* testTests.swift */; };
+		9F1363392735688500BCAA0E /* testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1363382735688500BCAA0E /* testUITests.swift */; };
+		9F13633B2735688500BCAA0E /* testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13633A2735688500BCAA0E /* testUITestsLaunchTests.swift */; };
+		9F136349273568B000BCAA0E /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 9F136348273568B000BCAA0E /* ArgumentParser */; };
+		9F13634B273568F100BCAA0E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F13634A273568F100BCAA0E /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F13632B2735688500BCAA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1363112735688300BCAA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1363182735688400BCAA0E;
+			remoteInfo = test;
+		};
+		9F1363352735688500BCAA0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1363112735688300BCAA0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F1363182735688400BCAA0E;
+			remoteInfo = test;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F1363192735688400BCAA0E /* Serge Brainin's Photogrametry App!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Serge Brainin's Photogrametry App!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F13631C2735688400BCAA0E /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
+		9F13631E2735688400BCAA0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F1363202735688500BCAA0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F1363232735688500BCAA0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9F1363252735688500BCAA0E /* test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = test.entitlements; sourceTree = "<group>"; };
+		9F13632A2735688500BCAA0E /* Serge Brainin's Photogrametry App!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Serge Brainin's Photogrametry App!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F13632E2735688500BCAA0E /* testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testTests.swift; sourceTree = "<group>"; };
+		9F1363342735688500BCAA0E /* Serge Brainin's Photogrametry App!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Serge Brainin's Photogrametry App!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1363382735688500BCAA0E /* testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITests.swift; sourceTree = "<group>"; };
+		9F13633A2735688500BCAA0E /* testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F13634A273568F100BCAA0E /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F1363162735688400BCAA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F136349273568B000BCAA0E /* ArgumentParser in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1363272735688500BCAA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1363312735688500BCAA0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F1363102735688300BCAA0E = {
+			isa = PBXGroup;
+			children = (
+				9F13631B2735688400BCAA0E /* test */,
+				9F13632D2735688500BCAA0E /* testTests */,
+				9F1363372735688500BCAA0E /* testUITests */,
+				9F13631A2735688400BCAA0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F13631A2735688400BCAA0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F1363192735688400BCAA0E /* Serge Brainin's Photogrametry App!.app */,
+				9F13632A2735688500BCAA0E /* Serge Brainin's Photogrametry App!Tests.xctest */,
+				9F1363342735688500BCAA0E /* Serge Brainin's Photogrametry App!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F13631B2735688400BCAA0E /* test */ = {
+			isa = PBXGroup;
+			children = (
+				9F13631C2735688400BCAA0E /* testApp.swift */,
+				9F13631E2735688400BCAA0E /* ContentView.swift */,
+				9F1363202735688500BCAA0E /* Assets.xcassets */,
+				9F1363252735688500BCAA0E /* test.entitlements */,
+				9F1363222735688500BCAA0E /* Preview Content */,
+				9F13634A273568F100BCAA0E /* File.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		9F1363222735688500BCAA0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9F1363232735688500BCAA0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9F13632D2735688500BCAA0E /* testTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F13632E2735688500BCAA0E /* testTests.swift */,
+			);
+			path = testTests;
+			sourceTree = "<group>";
+		};
+		9F1363372735688500BCAA0E /* testUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F1363382735688500BCAA0E /* testUITests.swift */,
+				9F13633A2735688500BCAA0E /* testUITestsLaunchTests.swift */,
+			);
+			path = testUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F1363182735688400BCAA0E /* Serge Brainin's Photogrametry App! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F13633E2735688500BCAA0E /* Build configuration list for PBXNativeTarget "Serge Brainin's Photogrametry App!" */;
+			buildPhases = (
+				9F1363152735688400BCAA0E /* Sources */,
+				9F1363162735688400BCAA0E /* Frameworks */,
+				9F1363172735688400BCAA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Serge Brainin's Photogrametry App!";
+			packageProductDependencies = (
+				9F136348273568B000BCAA0E /* ArgumentParser */,
+			);
+			productName = test;
+			productReference = 9F1363192735688400BCAA0E /* Serge Brainin's Photogrametry App!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F1363292735688500BCAA0E /* Serge Brainin's Photogrametry App!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1363412735688500BCAA0E /* Build configuration list for PBXNativeTarget "Serge Brainin's Photogrametry App!Tests" */;
+			buildPhases = (
+				9F1363262735688500BCAA0E /* Sources */,
+				9F1363272735688500BCAA0E /* Frameworks */,
+				9F1363282735688500BCAA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F13632C2735688500BCAA0E /* PBXTargetDependency */,
+			);
+			name = "Serge Brainin's Photogrametry App!Tests";
+			productName = testTests;
+			productReference = 9F13632A2735688500BCAA0E /* Serge Brainin's Photogrametry App!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F1363332735688500BCAA0E /* Serge Brainin's Photogrametry App!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F1363442735688500BCAA0E /* Build configuration list for PBXNativeTarget "Serge Brainin's Photogrametry App!UITests" */;
+			buildPhases = (
+				9F1363302735688500BCAA0E /* Sources */,
+				9F1363312735688500BCAA0E /* Frameworks */,
+				9F1363322735688500BCAA0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F1363362735688500BCAA0E /* PBXTargetDependency */,
+			);
+			name = "Serge Brainin's Photogrametry App!UITests";
+			productName = testUITests;
+			productReference = 9F1363342735688500BCAA0E /* Serge Brainin's Photogrametry App!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F1363112735688300BCAA0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					9F1363182735688400BCAA0E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					9F1363292735688500BCAA0E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9F1363182735688400BCAA0E;
+					};
+					9F1363332735688500BCAA0E = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 9F1363182735688400BCAA0E;
+					};
+				};
+			};
+			buildConfigurationList = 9F1363142735688300BCAA0E /* Build configuration list for PBXProject "Serge Brainin's Photogrametry App!" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F1363102735688300BCAA0E;
+			packageReferences = (
+				9F136347273568B000BCAA0E /* XCRemoteSwiftPackageReference "swift-argument-parser" */,
+			);
+			productRefGroup = 9F13631A2735688400BCAA0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F1363182735688400BCAA0E /* Serge Brainin's Photogrametry App! */,
+				9F1363292735688500BCAA0E /* Serge Brainin's Photogrametry App!Tests */,
+				9F1363332735688500BCAA0E /* Serge Brainin's Photogrametry App!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F1363172735688400BCAA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1363242735688500BCAA0E /* Preview Assets.xcassets in Resources */,
+				9F1363212735688500BCAA0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1363282735688500BCAA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1363322735688500BCAA0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F1363152735688400BCAA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F13631F2735688400BCAA0E /* ContentView.swift in Sources */,
+				9F13634B273568F100BCAA0E /* File.swift in Sources */,
+				9F13631D2735688400BCAA0E /* testApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1363262735688500BCAA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F13632F2735688500BCAA0E /* testTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F1363302735688500BCAA0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F13633B2735688500BCAA0E /* testUITestsLaunchTests.swift in Sources */,
+				9F1363392735688500BCAA0E /* testUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F13632C2735688500BCAA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1363182735688400BCAA0E /* Serge Brainin's Photogrametry App! */;
+			targetProxy = 9F13632B2735688500BCAA0E /* PBXContainerItemProxy */;
+		};
+		9F1363362735688500BCAA0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F1363182735688400BCAA0E /* Serge Brainin's Photogrametry App! */;
+			targetProxy = 9F1363352735688500BCAA0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9F13633C2735688500BCAA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F13633D2735688500BCAA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9F13633F2735688500BCAA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = test/test.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_TEAM = ZGGHDLU298;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = forecaster.com.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9F1363402735688500BCAA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = test/test.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"test/Preview Content\"";
+				DEVELOPMENT_TEAM = ZGGHDLU298;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = forecaster.com.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9F1363422735688500BCAA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGGHDLU298;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = forecaster.com.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serge Brainin's Photogrametry App!.app/Contents/MacOS/Serge Brainin's Photogrametry App!";
+			};
+			name = Debug;
+		};
+		9F1363432735688500BCAA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGGHDLU298;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = forecaster.com.testTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Serge Brainin's Photogrametry App!.app/Contents/MacOS/Serge Brainin's Photogrametry App!";
+			};
+			name = Release;
+		};
+		9F1363452735688500BCAA0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGGHDLU298;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = forecaster.com.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = test;
+			};
+			name = Debug;
+		};
+		9F1363462735688500BCAA0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZGGHDLU298;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = forecaster.com.testUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = test;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F1363142735688300BCAA0E /* Build configuration list for PBXProject "Serge Brainin's Photogrametry App!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F13633C2735688500BCAA0E /* Debug */,
+				9F13633D2735688500BCAA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F13633E2735688500BCAA0E /* Build configuration list for PBXNativeTarget "Serge Brainin's Photogrametry App!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F13633F2735688500BCAA0E /* Debug */,
+				9F1363402735688500BCAA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1363412735688500BCAA0E /* Build configuration list for PBXNativeTarget "Serge Brainin's Photogrametry App!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1363422735688500BCAA0E /* Debug */,
+				9F1363432735688500BCAA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F1363442735688500BCAA0E /* Build configuration list for PBXNativeTarget "Serge Brainin's Photogrametry App!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F1363452735688500BCAA0E /* Debug */,
+				9F1363462735688500BCAA0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F136347273568B000BCAA0E /* XCRemoteSwiftPackageReference "swift-argument-parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-argument-parser.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F136348273568B000BCAA0E /* ArgumentParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F136347273568B000BCAA0E /* XCRemoteSwiftPackageReference "swift-argument-parser" */;
+			productName = ArgumentParser;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F1363112735688300BCAA0E /* Project object */;
+}
